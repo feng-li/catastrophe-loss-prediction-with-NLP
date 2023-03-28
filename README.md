@@ -8,7 +8,11 @@ In this paper, we predict the duration and loss of catastrophes using textual in
 
 `get_url.py`: Obtain news title, news source, published time.
 
+`vector-embedded-by-BERT.py` & `vector-embedded-by-Word2Vec.py`:Construct the document vector.
+
 `rf_clf.py` & `xgb_clf.py` & `lgb_clf.py`: Predict the losses of each catastrophe-affected country by machine learning models such as Random Forest, XGBoost, and LightGBM.
 
 `rf_reg.py` & `xgb_reg.py` & `lgb_reg.py`: Predict the duration days of each catastrophe-affected country by machine learning models such as Random Forest, XGBoost, and LightGBM.
+
+
 
